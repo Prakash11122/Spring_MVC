@@ -1,0 +1,10 @@
+package in.prakash.controller;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class EmployeeController {
+	
+	
+
+}

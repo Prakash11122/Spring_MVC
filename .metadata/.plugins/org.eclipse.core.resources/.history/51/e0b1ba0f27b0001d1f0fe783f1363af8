@@ -1,0 +1,22 @@
+package in.prakash.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+
+import in.prakash.Service.EmployeeService;
+
+@Controller
+public class EmployeeController {
+	
+	@Autowired
+	private EmployeeService service;
+	
+	//show reg page
+	
+	
+	
+	//save employee data
+	
+	
+
+}

@@ -1,0 +1,9 @@
+package in.prakash.Service;
+
+import in.prakash.model.Employee;
+
+public interface EmployeeService {
+	
+	Integer saveEmployee(Employee e);
+
+}

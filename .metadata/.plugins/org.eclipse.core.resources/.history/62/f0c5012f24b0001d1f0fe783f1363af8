@@ -1,0 +1,12 @@
+package in.prakash.Service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import in.prakash.Repository.EmployeeRepo;
+
+public interface EmployeeService {
+	@Autowired
+	private EmployeeRepo eRepo;
+	
+
+}

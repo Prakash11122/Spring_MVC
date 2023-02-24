@@ -1,0 +1,6 @@
+package in.prakash.Service;
+
+public interface EmployeeService {
+	
+
+}

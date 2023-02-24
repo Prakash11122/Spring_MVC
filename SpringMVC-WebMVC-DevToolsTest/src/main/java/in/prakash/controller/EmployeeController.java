@@ -1,0 +1,15 @@
+package in.prakash.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+
+@Controller
+public class EmployeeController {
+	@GetMapping("/Emp")
+	public String showData() {
+		System.out.println("Done");
+		System.out.println("ok");
+		return "Home";
+	}
+
+}

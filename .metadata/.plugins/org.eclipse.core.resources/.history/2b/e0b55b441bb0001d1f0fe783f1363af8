@@ -1,0 +1,24 @@
+package in.prakash.model;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+import lombok.Data;
+
+@Entity
+@Table(name="EMPLOYEE")
+@Data
+public class Employee {
+	@Id
+	@GeneratedValue
+	private Integer eid;
+	private String ename;
+	private String email;
+	private Double esal;
+	private String edept;
+	private Double hra;
+	private Double da;
+
+}

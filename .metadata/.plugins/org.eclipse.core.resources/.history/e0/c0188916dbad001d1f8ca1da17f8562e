@@ -1,0 +1,8 @@
+#server port
+server.port=9898
+#serviceId
+spring.application.name=EMPLOYEE.APP
+########Register with Eureka#########
+eureka.client.service-url.defaultZone=http://localhost:8761/eureka/
+#eureka.client.service-url.defaultZone=http:192.168.1.83/eureka/
+

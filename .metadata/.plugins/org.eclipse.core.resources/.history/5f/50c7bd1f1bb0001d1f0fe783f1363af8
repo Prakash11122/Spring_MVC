@@ -1,0 +1,13 @@
+package in.prakash;
+
+public class Employee {
+	
+	private Integer eid;
+	private String ename;
+	private String email;
+	private Double esal;
+	private String dept;
+	private Double hra;
+	private Double da;
+
+}

@@ -1,0 +1,26 @@
+package in.prakash.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+
+import in.prakash.Service.EmployeeService;
+
+@Controller
+public class EmployeeController {
+	
+	@Autowired
+	private EmployeeService service;
+	
+	//show reg page
+	@GetMapping("/register")
+	public String showReg() {
+		return "EmployeeReg";
+	}
+	
+	
+	//save employee data
+	
+	
+
+}
